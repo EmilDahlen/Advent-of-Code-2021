@@ -1,4 +1,4 @@
-file_location = r"C:\Users\emild\OneDrive\Dokument\GitHub\advent of code\day 1\view-source_https___adventofcode.com_2021_day_1_input.txt"
+file_location = r"C:\Users\emild\OneDrive\Dokument\GitHub\Advent-of-Code-2021\view-source_https___adventofcode.com_2021_day_1_input.txt"
 
 with open(file_location, "r+") as file:
     file_input = file.read().split("\n")
