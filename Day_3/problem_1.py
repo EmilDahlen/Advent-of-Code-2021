@@ -6,8 +6,8 @@ del file_input[-1]
 
 def func(file_input):
 
-    gamma = ""
-    epsilon = ""
+    gamma = str()
+    epsilon = str()
 
     for number_pos, _ in enumerate(file_input[0]):
 
@@ -30,6 +30,5 @@ def func(file_input):
             epsilon += "1"
         
     return int(gamma, 2) * int(epsilon, 2)
-
 
 print(func(file_input))

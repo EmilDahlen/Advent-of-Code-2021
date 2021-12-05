@@ -2,7 +2,6 @@ file_location = r"C:\Users\emild\OneDrive\Dokument\GitHub\Advent-of-Code-2021\vi
 
 with open(file_location, "r+") as file:
     file_input = file.read().split("\n")
-    file_input = file.read().split("\n")
 del file_input[-1]
 
 num_of_increase = int()
