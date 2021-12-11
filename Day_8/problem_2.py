@@ -22,7 +22,7 @@ def get_key_by_value(dct, value):
     return key_list[index]
 
 def decrypt(sample):
-    finsih_patterns = {}
+    finsih_patterns = dict()
     while len(finsih_patterns) < 10:
         for segment in sample:
             segment = "".join(sorted(segment))
